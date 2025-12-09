@@ -1,0 +1,67 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-color {
+    background-color: rgb(228, 171, 15) !important;
+}
+
+.banner{
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Latar\ papeda.jpg);
+    background-size:cover;
+    background-position: center;
+}
+ img{
+    clip-path: circle(50% at 50% 50%);
+    width: 70px;
+    height: auto;
+    
+ }
+
+.card-img-top{
+    clip-path: none !important;
+    border-radius: 0 !important;
+   width: 100%;
+   height: 240px;
+    margin: auto;
+  
+}
+.hovered.card{
+    transition: .3s;
+}
+
+.hovered.card:hover{
+    transform: scaleX(1.1);
+}
+
+.icon-service{
+    width: 90px;
+    height: 90px;
+    border:solid #fff 2px;
+    border-radius: 50%;
+    color:#ffffff;
+    
+}
+
+.content-subscribe{
+    background-color:rgba(0,0,0,0.7);
+    
+    width: 100vw !important;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+
+}
+
+.footer-full{
+
+background-color: #000;        
+    width: 100vw !important;       
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;            
+    margin-right: -50vw;
+    padding-left: 20px;
+    padding-right: 20px
+
+}
